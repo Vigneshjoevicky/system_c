@@ -1,0 +1,5 @@
+*.o
+*.vcd
+*.log
+*.exe
+build/
