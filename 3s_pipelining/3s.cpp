@@ -146,7 +146,7 @@ int sc_main(int,char*[])
 	decode.fout( decode_to_execute_fifo);
 	execute.ex_in( decode_to_execute_fifo);
 	
-	sc_start(20,SC_NS);
+	sc_start(50,SC_NS);
 	return 0;
 	
 }
